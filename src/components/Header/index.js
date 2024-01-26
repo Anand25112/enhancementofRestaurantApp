@@ -31,7 +31,7 @@ const Header = props => (
               to={{pathname: '/cart', state: restaurantName}}
               className="link"
             >
-              <button type="button" className="cartButton">
+              <button testid="cart" type="button" className="cartButton">
                 <AiOutlineShoppingCart className={`icon_cart ${chosenCart}`} />
               </button>
             </Link>
